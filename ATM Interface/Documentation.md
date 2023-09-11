@@ -47,7 +47,7 @@ The ATM Banking Application is a Java-based simulation of an automated teller ma
 
 1. Clone this repository to your local machine:
    ```
-   git clone https://github.com/yourusername/atm-banking-app.git
+   git clone https://github.com/momen-saifi/CodSoft.git
    ```
 2. Navigate to the project directory:
    ```
