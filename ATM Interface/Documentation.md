@@ -15,7 +15,7 @@
     - [Withdrawing Money](#withdrawing-money)
     - [Viewing Transaction History](#viewing-transaction-history)
     - [Changing PIN](#changing-pin)
-5.[Data Persistence](#data-persistence)
+5. [Data Persistence](#data-persistence)
 6. [BankAccount Class](#bankaccount-class)
 7. [ATM Class](#atm-class)
 8. [Main Method](#main-method)
