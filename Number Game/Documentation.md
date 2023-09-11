@@ -1,4 +1,4 @@
-To improve the alignment and organization of your Number Guessing Game documentation, you can follow these suggestions:
+
 
 **Table of Contents**
 - Overview
