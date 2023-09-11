@@ -40,8 +40,8 @@ Installation
 1.Clone this repository to your local machine:
 	git clone https://github.com/momen-saifi/CodSoft.git 
 2.Navigate to the project directory:
-	cd CodSift
-	cd Number game 
+	cd CodSoft
+	cd Number Game 
 3.Compile the Java code:
 	javac NumberGame.java 
 Usage
