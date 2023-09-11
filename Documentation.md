@@ -1,5 +1,6 @@
 
-```markdown
+
+
 # Student Grade Calculator
 
 The Student Grade Calculator is a Java console application designed for managing student data, calculating grades, and performing other essential academic operations. This documentation provides an in-depth overview of the project, its features, how to use it, and its project structure.
@@ -77,6 +78,9 @@ Before running the Student Grade Calculator, make sure you have the following pr
 
 2. Follow the on-screen instructions to perform various operations, including adding students, calculating grades, displaying results, saving data, and loading data.
 
+## Project Structure
+
+
 ## Contributing
 
 Contributions to this project are welcome! If you encounter any issues or have ideas for improvements, please open an issue or create a pull request.
@@ -85,3 +89,4 @@ Contributions to this project are welcome! If you encounter any issues or have i
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 ```
+
