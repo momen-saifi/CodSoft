@@ -1,115 +1,87 @@
 
-# Java Quiz Application Documentation
+```markdown
+# Student Grade Calculator
+
+The Student Grade Calculator is a Java console application designed for managing student data, calculating grades, and performing other essential academic operations. This documentation provides an in-depth overview of the project, its features, how to use it, and its project structure.
 
 ## Table of Contents
-- [Overview](#overview)
+- [Introduction](#introduction)
 - [Features](#features)
-- [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-  - [Main Menu](#main-menu)
-  - [Admin Menu](#admin-menu)
-  - [User Menu](#user-menu)
-- [Data Persistence](#data-persistence)
+- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Overview
-The Java Quiz Application is a console-based quiz management system. It allows users to answer multiple-choice questions, maintain user profiles with scores, and provides administrative functions for managing quiz questions.
+## Introduction
+
+The Student Grade Calculator is a console-based Java application developed to facilitate the management of student data and the calculation of grades. It offers the following features:
+
+- **Adding Student Data:** You can add student records, including their roll number, name, and subject marks.
+
+- **Calculating Grades:** The application calculates the total marks, average percentage, and grades for all students in the database.
+
+- **Displaying Results:** It allows you to search and display student details based on roll number or name. You can view the total marks, average percentage, and grade for each student.
+
+- **Data Persistence:** The Student Grade Calculator provides the ability to save and load student data from a file. This ensures that student data remains available across different program runs.
 
 ## Features
-- **User Authentication:** Users and administrators can log in to the application.
-- **User Profiles:** Users have profiles with usernames, passwords, and scores.
-- **Quiz Questions:** Administrators can add and remove multiple-choice quiz questions.
-- **Quiz Taking:** Users can take quizzes with timed questions.
-- **Scoring:** Users' scores are recorded and displayed.
-- **Password Change:** Users can change their passwords.
 
-## Prerequisites
-Before running the Java Quiz Application, make sure you have the following installed:
+### Add Student
 
-- Java Development Kit (JDK) 8 or higher.
-- A Java-compatible development environment or IDE.
+- To add a new student, provide their roll number, name, and marks for each subject.
+
+### Calculate Grades
+
+- The application automatically calculates total marks, average percentage, and assigns grades based on predefined criteria.
+
+### Display Results
+
+- Search for and display student details using either the roll number or name as a search parameter. Get insights into each student's performance.
+
+### Save Data
+
+- Save the student database to a file using serialization. This ensures that student data remains available for future use.
+
+### Load Data
+
+- Load previously saved student data from a file using deserialization. Continue working with existing student records.
 
 ## Getting Started
-1. Clone or download the Java Quiz Application code to your computer.
+
+### Prerequisites
+
+Before running the Student Grade Calculator, make sure you have the following prerequisites:
+
+- **Java Development Kit (JDK):** Ensure that you have JDK installed on your machine.
+
+- **Java IDE or Text Editor:** You can use any Java development environment or text editor of your choice for development.
 
 ### Installation
-2. Open a terminal or command prompt and navigate to the directory containing the downloaded code.
 
-3. Compile the application by running the following command:
+1. Clone this repository to your local machine:
 
-   ```shell
-   javac QuizApp.java
+   ```bash
+   git clone https://github.com/momen-saifi/CodSoft.git
    ```
 
+2. Open the project in your preferred Java IDE or text editor (if applicable).
+
+3. Build the project to compile the source code.
+
 ## Usage
-### Main Menu
-When you start the application, you'll see the main menu with the following options:
-1. Admin Login: Log in as an administrator (Username: admin, Password: admin).
-2. User Login: Log in as a user with an existing account.
-3. Exit: Close the application.
 
-### Admin Menu
-If you log in as an administrator, you'll have access to the admin menu:
-1. Add Question: Add a new quiz question.
-2. Remove Question: Remove a quiz question.
-3. View Questions: View all quiz questions.
-4. Create User: Create a new user account.
-5. Logout: Log out from the admin account.
+1. Run the `StudentGradeCalculator` class with the `main` method to start the application.
 
-### User Menu
-If you log in as a user, you'll have access to the user menu:
-1. Take Quiz: Take the quiz, answering timed questions.
-2. View Score: View your quiz score.
-3. Change Password: Change your account password.
-4. Logout: Log out from your user account.
-
-## Data Persistence
-- Quiz questions and user profiles are saved to a file named "quiz_data.dat" for data persistence. Make sure not to delete this file.
+2. Follow the on-screen instructions to perform various operations, including adding students, calculating grades, displaying results, saving data, and loading data.
 
 ## Contributing
-Feel free to contribute to the development of this application by submitting pull requests or reporting issues.
+
+Contributions to this project are welcome! If you encounter any issues or have ideas for improvements, please open an issue or create a pull request.
 
 ## License
-This Java Quiz Application is open-source software licensed under the MIT License. 
 
-## Methods
-Here, we provide an overview of the methods used in the Java Quiz Application to give users and developers a deeper understanding of how the application works:
-
-### `adminLogin` Method
-- **Description:** Allows administrators to log in to the application using a username and password.
-- **Usage:** Administrators have access to functions like adding, removing, viewing questions, creating users, and logging out.
-
-### `addQuestion` Method
-- **Description:** Enables the administrator to add a new quiz question with multiple-choice options and the correct answer.
-- **Usage:** The added question is saved to the data file.
-
-### `removeQuestion` Method
-- **Description:** Allows the administrator to remove a quiz question by selecting it from a list of questions.
-- **Usage:** The removed question is deleted from the data file.
-
-### `viewQuestions` Method
-- **Description:** Displays a list of all quiz questions along with their options.
-- **Usage:** Users can view the quiz questions.
-
-### `saveData` Method
-- **Description:** Saves the current state of both questions and user profiles to a data file named "quiz_data.dat."
-
-### `loadData` Method
-- **Description:** Loads data from the "quiz_data.dat" file into the application, populating the questions and user profiles.
-
-### `createUser` Method
-- **Description:** Allows the administrator to create a new user profile with a username and password.
-- **Usage:** The created user is saved to the data file.
-
-### `userLogin` Method
-- **Description:** Enables users to log in using their username and password.
-- **Usage:** Once logged in, users can take the quiz, view their scores, change their passwords, and log out.
-
-### `takeQuiz` Method
-- **Description:** Conducts the quiz, presenting questions and recording user answers and scores
-
-.
-- **Usage:** Allows users to choose between admin login, user login, or exiting the application.
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+```
